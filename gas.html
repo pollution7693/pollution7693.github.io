@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sensor</title>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!-- importamos la libreria de firebase cliente para javascript -->
+    <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+
+    <!-- Logica de comunicación con firebase  -->
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+	<style type="text/css">
+	body{
+		background:url(pollution3.jpg) #A98436 no-repeat center top;
+		background-size:100%;
+	}
+</style>
+</head>
+<body>
+<div id="bg">
+  
+  
+</div>
+	<!-- script file for displayin date and time -->
+
+  <!-- Textos que se muestran -->
+  <table border="1" align="center" width="500" height="100">
+  
+  <tr>
+  
+<td id="header" colspan="7">
+  
+<h3>AIR POLLUTION MONITORING SYSTEM</h3>
+  
+</td>
+  
+</tr>
+<tr>
+<td id="header1" colspan="7">
+<h3>SENSOR DATA</h3>
+</td>
+</tr>
+
+<tr>
+<td id="header2">
+SENSOR
+</td>
+<td id="header2">
+VALUE
+</td>
+<td id="header2">
+CONDITION
+</td>
+</tr>
+
+<tr>
+<td>
+GAS CONTENT
+</td>
+<td>
+<span id="gas"></span>ppmv
+</td>
+<td>
+<span id="dia"></span>NONE
+</td>
+</tr>
+</table>
+
+<div class="button">
+<a href="index.html">
+	<input type="button" name="button" value="HOME">
+</a>
+</body>
+</html>

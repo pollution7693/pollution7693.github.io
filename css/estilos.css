@@ -1,0 +1,104 @@
+*{
+  font-family: 'Fjalla One', sans-serif;
+}
+h1{
+  text-align: center;
+  color: #FFF;
+  font-size: 50px;
+  text-shadow: 1px 1px 7px rgba(150, 150, 150, 1);
+}
+h2{
+  text-align: center;
+  color: #FFF;
+  font-size: 45px;
+  text-shadow: 1px 1px 7px rgba(150, 150, 150, 1);
+}
+
+
+.bild {
+  position:absolute;
+  display:none;
+  width:1000px;
+  height:735px;
+}
+/* body{
+	background-image: url(pollution1.jpg) #A98436 no-repeat left top;
+	background-size: 100%;
+	/* width: 100%;
+	height: 100vh; */
+} */
+
+.bg { 
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  z-index: -99;
+  Preserve aspet ratio
+  min-width: 100%;
+  min-height: 100%;  
+  z-index: -999;
+ } 
+ table
+{
+	border:1.5px solid blue;
+	opacity: 0.95;
+}
+td,th
+{
+	border:1px solid black;
+	opacity: 0.95;
+	padding: 6px;
+	text-align: center;
+}
+
+th
+{
+	background-color: #a70000;
+	color: white;
+}
+
+tr:nth-child(even)
+{
+	background-color: #e8e8e8;
+}
+tr:nth-child(odd)
+{
+	background-color: white;
+}
+
+#header
+{
+	background-color: #005cb7;
+	color: white;
+	font-size:30px;
+}
+#header1
+{
+	background-color: #a70000;
+	color: black;
+	font-size:20px;
+}
+#header2
+{
+	background-color: #005cb7;
+	color: white;
+	font-size:20px;
+}
+#header3
+{
+	background-color: #e8e8e8;
+	color: black;
+	font-size:15px;
+}
+.button{
+	text-align: center;
+	position: relative;
+	top: 30px;
+	font-size: 20px;
+	margin: 16px 16px;
+	cursor: pointer;
+	
+	}
+
+.bgwidth { width: 100%; }
+.bgheight { height: 100%; } 
