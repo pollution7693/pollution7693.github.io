@@ -48,7 +48,7 @@ JavsScript
 
   function cambiarImagen(valorSensorGas, valorSensorAmmonia, valordust){
 
-    if(valorSensorGas>=0){
+    if(valorSensorGas<=0){
 
         console.log("Es de dia");
 
