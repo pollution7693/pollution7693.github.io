@@ -2,7 +2,7 @@
 JavsScript
 */
   // creamos un objeto de firebase, y le pasamos la URL como parametro
-  var ref = new Firebase("https://proyectorpi.firebaseio.com/");
+  var ref = new Firebase("https://pollutionmonitoring-73a31-default-rtdb.firebaseio.com/");
 
   // Traemos el valor de los sensores
   ref.once("value", function(res) {
