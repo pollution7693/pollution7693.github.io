@@ -7,15 +7,15 @@ JavsScript
   // Traemos el valor de los sensores
   ref.once("value", function(res) {
 
-    var sensorGas = res.child("sensor/gas");
+    var sensorGas = res.child("sensor/Gas");
     var valorSensorGas = sensorGas.val()
-    $('#gas').text(valorSensorTemp);
+    $('#gas').text(valorSensorGas);
 
-    var sensorAmmonia = res.child("sensor/ammonia");
+    var sensorAmmonia = res.child("sensor/Ammonia");
     var valorSensorAmmonia = sensorAmmonia.val()
     $('#ammonia').text(valorSensorAmmonia);
 	
-	var dust = res.child("sensor/dust");
+    var dust = res.child("sensor/dust");
     var valordust = dust.val()
     $('#dust').text(valordust);
 
@@ -28,10 +28,10 @@ JavsScript
   // (En tiempo real)
   ref.on("child_changed", function(res) {
 
-    var valorSensorGas = res.val().gas
+    var valorSensorGas = res.val().Gas
     $('#gas').text(valorSensorGas);
 
-    var valorSensorAmmonia = res.val().ammonia
+    var valorSensorAmmonia = res.val().Ammonia
     $('#ammonia').text(valorSensorAmmonia);
 	
 	var valordust = res.val().dust
